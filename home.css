@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
 }
@@ -9,5 +10,9 @@
     margin: 1%;
     padding: 3%;
     border-radius: 25px;
+
+
+*{
+    background-color: azure;
 
 }
