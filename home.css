@@ -1,3 +1,79 @@
-*{
-    background-color: azure;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
 }
+
+
+/*--------------HEADING--------------*/
+
+.multicolour {
+    height: 7px;
+    width: 100%;
+    background: linear-gradient( to right, #e2449b, #8b45d0, #05d2cf, #8b45d0, #e2449b);
+}
+
+.nav1 {
+    height: 40px;
+    width: 100%;
+    background-color: #25d6a1;
+}
+
+nav {
+    /* for cornering list items */
+    justify-content: space-around;
+    /* space between text and list */
+    align-items: center;
+    /* text in centre */
+    min-height: 8vh;
+    background-color: aquamarine;
+    font-family: 'Poppins', sans-serif;
+    /* from google fonts */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .left a {
+    color: cadetblue;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+nav .right a {
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+nav .left {
+    list-style: none;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: space-around;
+    width: 10%;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav .right {
+    position: absolute;
+    right: 100px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+
+/*--------------HEADING Over--------------*/
