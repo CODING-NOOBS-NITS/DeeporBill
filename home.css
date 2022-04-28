@@ -33,6 +33,9 @@ nav {
     background-color: aquamarine;
     font-family: 'Poppins', sans-serif;
     /* from google fonts */
+
+
+
 }
 
 nav ul {
@@ -79,3 +82,14 @@ nav .right {
 
 /*--------------HEADING Over--------------*/
 
+/*-------------------- Hovering Animations--------------- */
+
+/* Navbar Buttons */
+:is(.left:hover,.right:hover)
+{
+    color: rgb(0, 0, 0);
+    border-radius: 25vh;
+    box-shadow: 0 0 0.5vh 0 black;
+}
+
+/*------------------------- Hovering Animations Over------------- */
