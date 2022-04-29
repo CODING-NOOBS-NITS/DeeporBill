@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +11,13 @@
 /*--------------HEADING--------------*/
 
 .multicolour {
-    height: 7px;
+    height: 7vh;
     width: 100%;
     background: linear-gradient( to right, #e2449b, #8b45d0, #05d2cf, #8b45d0, #e2449b);
 }
 
 .nav1 {
-    height: 40px;
+    height: 40vh;
     width: 100%;
     background-color: #25d6a1;
 }
@@ -33,9 +32,6 @@ nav {
     background-color: aquamarine;
     font-family: 'Poppins', sans-serif;
     /* from google fonts */
-
-
-
 }
 
 nav ul {
@@ -44,57 +40,60 @@ nav ul {
 
 nav .left a {
     color: cadetblue;
-    letter-spacing: 3px;
+    letter-spacing: 3vh;
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 15vh;
     align-items: center;
 }
 
 nav .right a {
     color: cadetblue;
-    letter-spacing: 2px;
+    letter-spacing: 2vh;
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 15vh;
     align-items: center;
 }
 
 nav .left {
     list-style: none;
     display: flex;
-    letter-spacing: 2px;
+    letter-spacing: 2vh;
     justify-content: space-around;
     width: 10%;
     text-align: right;
-    padding: 10px;
-    margin: 10px;
+    padding: 10vh;
+    margin: 10vh;
 }
 
 nav .right {
     position: absolute;
-    right: 100px;
-    padding: 10px;
-    margin: 10px;
+    right: 100vh;
+    padding: 10vh;
+    margin: 10vh;
     justify-content: space-around;
 }
 
 
 /*--------------HEADING Over--------------*/
+
 .content {
-    margin: 80px;
-    padding: 80px;
+    margin: 80vh;
+    padding: 80vh;
 }
 
 
 /*-------------------- Hovering Animations--------------- */
 
+
 /* Navbar Buttons */
-:is(.left:hover,.right:hover)
-{
+
+:is(.left:hover, .right:hover) {
     color: rgb(0, 0, 0);
     border-radius: 25vh;
     box-shadow: 0 0 0.5vh 0 black;
 }
+
 
 /*------------------------- Hovering Animations Over------------- */
