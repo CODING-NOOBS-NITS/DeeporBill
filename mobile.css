@@ -1,0 +1,79 @@
+/* ==================📱 ANDROID VIEW 📱================== */
+
+/*--------------HOME PAGE------------------ */
+@media only screen and (max-width: 840px) {
+    .content {
+        margin: 5vh;
+    }
+    
+    
+
+
+
+
+
+
+}
+
+
+
+/* 😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀 */
+/* -------------------ABOUT US--------------------------- */
+
+.mobilecards {
+    display: none;
+}
+
+
+/* -------------ANDROID VIEW----------------------------------- */
+@media only screen and (max-width:500px) {
+    * {
+        font-size: 2vh;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    /* .card {
+        display: none;
+    }
+
+    .mobilecards {
+        display: block;
+        width: 40vh;
+        height: 40vh;
+        margin: 10%;
+        background-image: linear-gradient(rgba(153, 255, 211, 0.869), rgba(0, 95, 19, 0.879)), url("images/aboutus.png");
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 8px 17px rgb(6, 97, 107);
+        transition: 0.3s ease-in-out;
+        overflow: hidden;
+        border-radius: 10vh;
+        transition: 1s ease-in;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vh;
+
+
+    }
+
+    .ima {
+        width: fit-content;
+        padding: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ima::hover {
+        transform: translateY(0);
+    }
+
+    .wrapperbox {
+        display: block;
+    } */
+}
