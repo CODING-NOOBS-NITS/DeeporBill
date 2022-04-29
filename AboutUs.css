@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -98,7 +97,7 @@ nav .right {
 
 .wrapperbox{
     display: flex;
-    width: 96%;
+    width: 98%;
     justify-content: space-around;
     /* padding: 5%; */
     /* margin-left: 1%; */
@@ -119,10 +118,10 @@ nav .right {
     display: flex;
     flex-direction: column;
     /* align-items: flex-start; */
-    box-shadow: 0px 8px 13px rgb(1, 125, 117);
+    box-shadow: 0px 10px 16px rgb(0, 49, 46);
     transition: 0.3s ease-in-out;
     overflow: hidden;
-    border-radius: 10vh;
+    border-radius: 12vh;
     transition: transform  1s ease-in;
     justify-content: center;
     /* transition: 1s ease-in-out; */
@@ -142,7 +141,7 @@ nav .right {
     transform: translateY(-40vh);
     /* transition: transform  1s ease-in; */
     display: block;
-    transition: 1s;
+    transition: 1.5s;
     /* transition: transform ease-in 1s; */
 
 }
@@ -164,8 +163,8 @@ nav .right {
     transition: 1s;
 } */
 
-
-/* .card ::before{
+/* 
+.card ::before{
     content: "";
     position: absolute;
     top: 0;
@@ -178,8 +177,8 @@ nav .right {
     opacity: 0;
     
 } */
-/* 
-.card :hover ::before{
+/*  */
+/* .card :hover ::before{
     opacity: 1;
 } */
 
@@ -210,7 +209,7 @@ img{
 
  .card:hover .Persons{
     transform: translateY(-30vh);
-    transition: 1s;
+    transition: 2s;
  }
 
 
@@ -220,7 +219,7 @@ img{
 /* Navbar Buttons */
 :is(.left:hover,.right:hover)
 {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 37, 39);
     transition: 1s;
     transform: translateY(-1%);
     border-radius: 25vh;
@@ -256,7 +255,7 @@ img{
         background-attachment: fixed;
         display: flex;
         flex-direction: column;
-        box-shadow: 0px 8px 13px rgb(1, 125, 117);
+        box-shadow: 0px 8px 17px rgb(6, 97, 107);
         transition: 0.3s ease-in-out;
         overflow: hidden;
         border-radius: 10vh;
