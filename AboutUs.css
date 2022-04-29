@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -125,9 +124,13 @@ nav .right {
     background-image: linear-gradient(rgba(153, 255, 211, 0.869),rgba(0, 95, 19, 0.879)),url("images/aboutus.png");
     background-position: center;
     display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    box-shadow: 0px 10px 16px rgb(0, 49, 46);
     transition: 1s ease-in-out;
+
     overflow: hidden;
-    border-radius: 10vh;
+    border-radius: 12vh;
     transition: transform  1s ease-in;
     justify-content: center;
     text-overflow: ellipsis;
@@ -142,7 +145,7 @@ nav .right {
 .card:hover :is(.ima,.text){
     transform: translateY(-40vh);
     display: block;
-    transition: transform  1s ease-in;
+    transition: transform  1.5s ease-in;
 }
 
 .ima{
@@ -156,6 +159,7 @@ nav .right {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .card:hover h2{
     display: block;
 }
@@ -169,6 +173,7 @@ h2,p{
     padding-left: 5%;
     padding-right: 2%;
 }
+
 img{
     border-radius: 10vh;
     width: cover;
@@ -181,8 +186,8 @@ img{
 
 
  .card:hover .Persons{
-    /* transform: translateY(-30vh); */
-    transition: 1s;
+    transform: translateY(-30vh);
+    transition: 2s;
  }
 
  
@@ -192,7 +197,7 @@ img{
 /* Navbar Buttons */
 :is(.left:hover,.right:hover)
 {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 37, 39);
     transition: 1s;
     transform: translateY(-1%);
     border-radius: 25vh;
@@ -228,7 +233,7 @@ img{
         background-attachment: fixed;
         display: flex;
         flex-direction: column;
-        box-shadow: 0px 8px 13px rgb(1, 125, 117);
+        box-shadow: 0px 8px 17px rgb(6, 97, 107);
         transition: 0.3s ease-in-out;
         overflow: hidden;
         border-radius: 10vh;
