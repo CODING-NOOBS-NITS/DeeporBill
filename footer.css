@@ -94,10 +94,16 @@
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:hover .icon i {
+.wrapper .button:hover .icon i::before{
     color: #fff;
-    transform: translate(-2vh);
+    border-radius: 25vh;
+    box-shadow: 0 0 2vh 2vh white;
     transition: 1s;
+}
+
+.icon i:hover{
+    transform: translateY(-2vh);
+
 }
 
 .wrapper .button span {
