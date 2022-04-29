@@ -96,91 +96,83 @@ nav .right {
 
 
 .wrapperbox{
-    display: flex;
-    width: 98%;
-    justify-content: space-around;
-    /* padding: 5%; */
-    /* margin-left: 1%; */
+    display:table;
+    width: fit-content;
+    background-image: radial-gradient(rgba(0, 128, 0, 0.812),rgba(144, 238, 144, 0.471)), url("https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg");
+    align-items: center;
+    justify-content: space-between;
     padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-bottom: 10%;
-    /* position: relative; */
     border-spacing: 16px;
     transition: 1s ease;
+    flex-wrap:nowrap;
+}
 
+.card,.ima
+{
+    width: 20%;
+    height: 20%;
+    min-height:40vh;
+    min-width: 40vh;
 }
 
 .card{
-    width: 50vh;
-    height: 50vh;
+    float:left;
+    margin: 2%;
     background-image: linear-gradient(rgba(153, 255, 211, 0.869),rgba(0, 95, 19, 0.879)),url("images/aboutus.png");
-    background-attachment: fixed;
-    /* position: relative; */
+    background-position: center;
     display: flex;
     flex-direction: column;
     /* align-items: flex-start; */
     box-shadow: 0px 10px 16px rgb(0, 49, 46);
-    transition: 0.3s ease-in-out;
+    transition: 1s ease-in-out;
+
     overflow: hidden;
     border-radius: 12vh;
     transition: transform  1s ease-in;
     justify-content: center;
-    /* transition: 1s ease-in-out; */
-    /* border-spacing: 5vh; */
-    /* padding: 10%; */
-    /* background: #50e2ca; */
-    /* padding: 2vh; */
-    /* margin-left: 5%; */
+    text-overflow: ellipsis;
+    
 }
 .card:hover{
-    transform: translateY(-10vh);
-    transition: 1s;
-    margin: 2%;
+    box-shadow: 0px 8px 13px rgb(0, 0, 0);
+    /* transform: translateY(-10vh); */
+    transition: 2s ease-in-out;
 }
 
 .card:hover :is(.ima,.text){
     transform: translateY(-40vh);
-    /* transition: transform  1s ease-in; */
     display: block;
-    transition: 1.5s;
-    /* transition: transform ease-in 1s; */
-
+    transition: transform  1.5s ease-in;
 }
 
 .ima{
     width: 50vh;
-    height: 50vh;
+    height:50vh;
     padding-top: 100%;
     border-radius: 10vh;
     background-image: url("images/aboutus.png");
-    background-position:left;
+    background-image: (linear-gradient(black,grey),url("images/aboutus.png"));
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .text{
-    padding-top: 100%;
-    padding: 10%;
-    display: none;
-    transition: 1s;
-} */
 
-/* 
-.card ::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+.card:hover h2{
     display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    transition: 0.3s ease;
-    opacity: 0;
-    
-} */
-/*  */
-/* .card :hover ::before{
-    opacity: 1;
-} */
+}
+.card:hover p{
+    display: block;
+}
+h2{padding-top: 50%;}
+h2,p{ 
+    font-size: 3vh;
+    display: none;
+    padding-left: 5%;
+    padding-right: 2%;
+}
 
 img{
     border-radius: 10vh;
@@ -189,22 +181,8 @@ img{
     align-self: center;
     height:inherit;
     object-fit: cover;
-    /* position: absolute; */
-    /* top :0; */
-    /* left: 0; */
-
-
 }
 
-.Person{
-    padding: 5%;
-    text-align: center;
-    width: 30vh;
-    height: 30vh;
-    background-image: (linear-gradient(black,grey),url("images/aboutus.png"));
-    padding: 0%;
-    display: none;
-}
 
 
  .card:hover .Persons{
@@ -212,7 +190,7 @@ img{
     transition: 2s;
  }
 
-
+ 
 
 /*-------------------- Hovering Animations--------------- */
 
@@ -239,7 +217,7 @@ img{
 
 
 /* -------------ANDROID VIEW----------------------------------- */
-@media only screen and (max-width: 1040px){
+@media only screen and (max-width:900px){
     *{
         font-size: 2vh;
     }
@@ -259,7 +237,7 @@ img{
         transition: 0.3s ease-in-out;
         overflow: hidden;
         border-radius: 10vh;
-        transition: transform 1s ease-in;
+        transition: 1s ease-in;
         justify-content: center;
         align-items: center;
         font-size: 2vh;
@@ -277,6 +255,6 @@ img{
         transform: translateY(0);   
     }
    .wrapperbox{
-       flex-direction: column;
+       display: none;
    }
 }
