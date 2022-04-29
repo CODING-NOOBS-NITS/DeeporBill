@@ -1,0 +1,335 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*--------------HEADING--------------*/
+
+.multicolour {
+    height: 7px;
+    width: 100%;
+    background: linear-gradient( to right, #e2449b, #8b45d0, #05d2cf, #8b45d0, #e2449b);
+}
+
+.nav1 {
+    height: 40px;
+    width: 100%;
+    background-color: #25d6a1;
+}
+
+nav {
+    /* for cornering list items */
+    justify-content: space-around;
+    /* space between text and list */
+    align-items: center;
+    /* text in centre */
+    min-height: 8vh;
+    background-color: aquamarine;
+    font-family: 'Poppins', sans-serif;
+    /* from google fonts */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .left a {
+    color: cadetblue;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+nav .right a {
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+nav .left {
+    list-style: none;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: space-around;
+    width: 10%;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav .right {
+    position: absolute;
+    right: 100px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+
+/*--------------HEADING Over--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------BOxes--------------------- */
+
+
+
+.wrapperbox{
+    display: flex;
+    width: 96%;
+    justify-content: space-around;
+    padding: 10%;
+    margin-left: 17px;
+    
+    position: relative;
+    border-spacing: 16px;
+    transition: 2s ease;
+
+}
+
+.card{
+    width: 600px;
+    height: 330px;
+    padding: 2rem 1 rem;
+    background: #50e2ca;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 8px 13px rgb(1, 125, 117);
+    transition: 0.3s ease-in-out;
+    border-spacing: 5vh;
+    padding: 10%;
+    margin-left: 13px;
+    transition: 5s ease-in-out;
+
+
+}
+.card :hover{
+    transform: translate(15px);
+    opacity: 0.15;
+    
+    
+    
+    
+}
+
+.card ::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: 0.3s all;
+    opacity: 0;
+    
+}
+
+.card :hover ::before{
+    opacity: 1;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top :0;
+    
+    left: 0;
+
+
+}
+
+/* 
+
+.card Person{
+    position: absolute;
+    z-index: 3;
+    color: #05d2cf;
+    opacity: 1;
+    transform: translateY(30px);
+    transform: 0.3s all;
+}
+
+.card :hover .Person{
+    opacity: 1;
+    transform: translateY(10px);
+
+}
+.card .Person h1{
+    margin: 1;
+    
+}
+
+
+
+ */
+
+
+
+
+
+/*--------------footer 1--------------*/
+
+.footer1 {
+    height: 100px;
+    background-color: #6debc5;
+}
+
+.nav2 ul {
+    display: flex;
+}
+
+.nav2 a {
+    color: cadetblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+.nav2 .left {
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.nav2 .right {
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+    text-align: right;
+    justify-content: space-around;
+}
+.footer-dark {
+    padding: 0;
+    color: #c1d0da;
+    background-color: #1AE7A9;
+}
+
+.footer-dark ul {
+    color: black;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 5px;
+    opacity: 0.8;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+
+
+.wrapper .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    overflow: hidden;
+    background: rgb(26, 33, 49);
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+    color: #fff;
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.nav2 .centre {
+    position: absolute;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
+
+
+/*--------------footer 2--------------*/
+
+.footer2 {
+    height: 100px;
+    background-color: #6debc5;
+    width: 100%;
+}
+
+.content1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*--------------footer 2 over--------------*/
+/*-------------------- Hovering Animations--------------- */
+
+/* Navbar Buttons */
+:is(.left:hover,.right:hover)
+{
+    color: rgb(0, 0, 0);
+    border-radius: 25vh;
+    box-shadow: 0 0 0.5vh 0 black;
+}
+
+/*------------------------- Hovering Animations Over------------- */
