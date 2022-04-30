@@ -1,0 +1,19 @@
+#nav-button{
+    /* visibility: hidden; */
+    /* display: none; */
+    width: 7vh;
+    height: 7vh;
+    padding: 2%;
+    margin: 1%;
+    position: absolute;
+    top:0%;
+    right:0%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6m1HrkuwCqUZY2l_b0Li_1U8XBXhfFUbEYg&usqp=CAU");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 25vh;
+    /* border: none; */
+    box-shadow: 0 0 10vh 0.5vh;
+    border: 0.5vh solid rgb(37 214 161);
+}
