@@ -17,3 +17,108 @@
     box-shadow: 0 0 10vh 0.5vh;
     border: 0.5vh solid rgb(37 214 161);
 }
+
+#nav-close{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 7vh;
+    height: 7vh;
+    padding: 2%;
+    margin: 1%;
+}
+
+
+
+
+
+/*--------------HEADING--------------*/
+
+.multicolour {
+    height: 7%;
+    width: 100%;
+    background: linear-gradient(to right, #e2449b, #8b45d0, #05d2cf, #8b45d0, #e2449b);
+}
+
+.nav1 {
+    height: 40%;
+    padding-top: 5%;
+    width: 100%;
+    background-color: #25d6a1;
+}
+
+nav {
+    justify-content: space-around;
+    /* for cornering list items */
+    align-items: center;
+    /* space between text and list */
+    /* text in centre */
+    min-height: 12vh;
+    font-size: 2vh;
+    background-color: aquamarine;
+    font-family: 'Poppins', sans-serif;
+    /* from google fonts */
+}
+
+nav ul {
+    /* display: flex; */
+}
+
+nav .left a {
+    color: cadetblue;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+nav .right a {
+    color: cadetblue;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+nav .left {
+    background-color: aquamarine;
+    float: left;
+    list-style: none;
+    display: flex;
+    letter-spacing: 2%;
+    justify-content: space-around;
+    border-radius: 25vh;
+    width: 10%;
+    align-items: center;
+    text-align: right;
+    padding: 4vh;
+    margin: 0 5vh;
+}
+
+nav .right {
+    background-color: aquamarine;
+    float: right;
+    padding: 3vh;
+    border-radius: 25vh;
+    margin: 0.5%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*--------------HEADING Over--------------*/
+
+/*-------------------- Hovering Animations--------------- */
+
+/* Navbar Buttons */
+:is(.left:hover, .right:hover) {
+    color: rgb(0, 37, 39);
+    transition: 1s;
+    transform: translateY(-4vh);
+    border-radius: 25vh;
+    box-shadow: 0 0.3vh 0.3vh 0 black;
+}
+
+/*------------------------- Hovering Animations Over------------- */
