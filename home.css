@@ -8,76 +8,6 @@
 }
 
 
-/*--------------HEADING--------------*/
-
-.multicolour {
-    height: 1vh;
-    width: 100%;
-    background: linear-gradient( to right, #e2449b, #8b45d0, #05d2cf, #8b45d0, #e2449b);
-}
-
-.nav1 {
-    height: 5vh;
-    width: 100%;
-    background-color: #25d6a1;
-}
-
-nav {
-    /* for cornering list items */
-    justify-content: space-around;
-    /* space between text and list */
-    align-items: center;
-    /* text in centre */
-    min-height: 8vh;
-    background-color: aquamarine;
-    font-family: 'Poppins', sans-serif;
-    /* from google fonts */
-}
-
-nav ul {
-    display: flex;
-}
-
-nav .left a {
-    color: cadetblue;
-    letter-spacing: .05vh;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 2vh;
-    align-items: center;
-}
-
-nav .right a {
-    color: cadetblue;
-    letter-spacing: .05vh;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 2vh;
-    align-items: center;
-}
-
-nav .left {
-    list-style: none;
-    display: flex;
-    letter-spacing: .05vh;
-    justify-content: space-around;
-    width: 10%;
-    text-align: right;
-    padding: 2vh;
-    margin: 2vh;
-}
-
-nav .right {
-    position: absolute;
-    right: 3vh;
-    padding: 2vh;
-    margin: 2vh;
-    justify-content: space-around;
-}
-
-
-/*--------------HEADING Over--------------*/
-
 .content {
     margin: 10vh;
     padding: 10vh;
@@ -214,15 +144,10 @@ nav .right {
 /*--------------footer 2 over--------------*/
 
 
-/*-------------------- Hovering Animations--------------- */
 
 
-/* Navbar Buttons */
+#home {
 
-:is(.left:hover, .right:hover) {
-    color: rgb(0, 0, 0);
-    border-radius: 25vh;
-    box-shadow: 0 0 0.5vh 0 black;
+    transform: translateY(-5vh);
+    padding: 6vh;
 }
-
-
