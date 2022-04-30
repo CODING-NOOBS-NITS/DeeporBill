@@ -61,7 +61,19 @@
     font-size: 20px;
     margin-bottom: 0;
 }
-
+.footer-dark .H3{
+    text-align: center;
+    color: white;
+}
+.H3 h3{
+    color: black;
+}
+.CU-OB li{
+    text-align: center;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
 
 
 
