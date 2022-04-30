@@ -28,12 +28,10 @@ body{
 }
 
 nav {
-    /* for cornering list items */
-    justify-content: space-around;
-    /* space between text and list */
-    align-items: center;
+    justify-content: space-around;/* for cornering list items */
+    align-items: center;/* space between text and list */
     /* text in centre */
-    min-height: 8vh;
+    min-height: 12vh;
     font-size: 2vh;
     background-color: aquamarine;
     font-family: 'Poppins', sans-serif;
@@ -41,7 +39,7 @@ nav {
 }
 
 nav ul {
-    display: flex;
+    /* display: flex; */
 }
 
 nav .left a {
@@ -63,6 +61,7 @@ nav .right a {
 }
 
 nav .left {
+    float: left;
     list-style: none;
     display: flex;
     letter-spacing: 2px;
@@ -74,8 +73,9 @@ nav .left {
 }
 
 nav .right {
-    position: absolute;
-    right: 1.5%;
+    float: right;
+    /* position: absolute; */
+    /* right: 1.5%; */
     padding: 1%;
     margin: 0.7%;
     justify-content: space-around;
