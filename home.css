@@ -71,14 +71,25 @@
 }
 
 .footer-dark .copyright {
+    color:black;
     text-align: center;
     padding-top: 2vh;
     opacity: 0.8;
     font-size: 2vh;
     margin-bottom: 0;
 }
-
+.mail{
+    color: rgb(16, 16, 15);
+    
+}
+a{
+    color: white;
+    font-size: medium;
+    
+   
+}
 .wrapper .button {
+    text-align: center;
     display: inline-block;
     height: 6.5vh;
     width: 6vh;
@@ -150,4 +161,17 @@
 
     transform: translateY(-5vh);
     padding: 6vh;
+}
+.footer-dark .H3{
+    text-align: center;
+    color: white;
+}
+.H3 h3{
+    color: black;
+}
+.CU-OB li{
+    text-align: center;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
