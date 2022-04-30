@@ -1,0 +1,63 @@
+*{
+    justify-content: center;
+}
+
+
+
+
+
+
+.mapcontainer{
+    width: 90%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    
+    
+
+}
+
+.mapcard{
+    width: 80%;
+    height: 88vh;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-left: 20vh;
+    background-color:  rgb(117, 205, 205);
+    text-align: center;
+    padding: 5vh;
+    border-radius: 5vh;
+    box-shadow:  -40px 30px 20px rgb(47, 171, 199)
+    
+}
+
+
+
+.mapcard :hover{
+    transform: translateY(-11vh);
+    transition: 1.8s;
+    background-color: rgb(216, 100, 87);
+    border-radius: 5vh; 
+
+     
+
+    
+    
+}
+
+iframe{
+    width: 96%;
+    height: 75vh;
+    padding: 7%;
+    margin-left: 3vh;
+    margin-top: 12vh;
+    display: flex;
+    
+
+    
+    filter: invert(100%);
+}
+
+
