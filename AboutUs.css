@@ -129,3 +129,39 @@ img{
     transform:translateY(-5vh);
     padding: 6vh;
 }
+
+/* --------------LOADING------------ */
+
+@keyframes loading {
+        0% {
+            transform: rotate(0deg);
+        }
+        
+        100% {
+            transform: rotate(360deg);
+        }
+}
+
+.fbox {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.circle {
+    align-self: center;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    border: 2vh solid rgba(28, 28, 28, 0.356);
+    background-image: radial-gradient(rgba(127, 255, 212, 0), rgba(0, 107, 29, 0));
+    border-top-color: aquamarine;
+    animation: loading 1.5s linear infinite;
+    transition: 200ms;
+    position: fixed;
+    /* animation-direction:alternate-reverse; */
+}
