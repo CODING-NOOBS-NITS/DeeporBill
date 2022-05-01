@@ -13,16 +13,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* -------------BOxes--------------------- */
 
 
@@ -164,12 +154,4 @@ img{
     transition: 200ms;
     position: fixed;
     /* animation-direction:alternate-reverse; */
-}
-.footer-dark .copyright {
-    color:black;
-    text-align: center;
-    padding-top: 2vh;
-    opacity: 0.8;
-    font-size: 2vh;
-    margin-bottom: 0;
 }
