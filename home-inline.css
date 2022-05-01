@@ -1,13 +1,5 @@
-h3 {
-    color: white;
-}
-#comp-logo{
-background-color: black;
-font-size: large;
-}
-
-a{
-    background-color: black;
-    color: bisque;
-    font-size: medium;
+.comp-logo{
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
