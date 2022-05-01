@@ -54,7 +54,7 @@
     opacity: 0.6;
 }
 
-.footer-dark .copyright {
+.copyright {
     text-align: center;
     padding-top: 5px;
     opacity: 0.8;
@@ -148,7 +148,8 @@
     padding-top: 10px;
 }
 
-
-
-
 /*--------------footer 2 over--------------*/
+.DOWN{
+    padding: 5px;
+    background-color: black;
+}

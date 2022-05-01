@@ -3,10 +3,6 @@
 }
 
 
-
-
-
-
 .mapcontainer{
     width: 90%;
     height: 100vh;
@@ -59,5 +55,3 @@ iframe{
     
     filter: invert(100%);
 }
-
-
