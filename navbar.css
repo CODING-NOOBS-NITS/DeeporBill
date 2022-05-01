@@ -49,15 +49,12 @@
 
 nav {
     justify-content: space-around;
-    /* for cornering list items */
     align-items: center;
-    /* space between text and list */
-    /* text in centre */
     min-height: 12vh;
     font-size: 2vh;
     background-color: aquamarine;
     font-family: 'Poppins', sans-serif;
-    /* from google fonts */
+    border-radius: 5vh;
 }
 
 nav ul {
@@ -90,21 +87,34 @@ nav .left {
     letter-spacing: 2%;
     justify-content: space-around;
     border-radius: 25vh;
-    width: 10%;
     align-items: center;
+    width: 20vh;
     text-align: right;
     padding: 4vh;
     margin: 0 5vh;
 }
 
-nav .right {
+nav .right {    
+    width: 20vh;
+    /* background-color: aquamarine; */
+    /* width: 10%; */
+    /* float: right; */
+    /* padding: 5vh; */
+    /* border-radius: 25vh; */
+    /* margin: 0.5%; */
+    /* align-items: center; */
+    /* justify-content: center; */
     background-color: aquamarine;
     float: right;
-    padding: 3vh;
-    border-radius: 25vh;
-    margin: 0.5%;
-    align-items: center;
+    list-style: none;
+    display: flex;
+    letter-spacing: 2%;
     justify-content: space-around;
+    border-radius: 25vh;
+    align-items: center;
+    text-align: right;
+    padding: 4vh;
+
 }
 
 
@@ -114,11 +124,41 @@ nav .right {
 
 /* Navbar Buttons */
 :is(.left:hover, .right:hover) {
-    color: rgb(0, 37, 39);
+/* :is(.left, .right) { */
+    /* color: rgb(0, 37, 39); */
     transition: 1s;
-    transform: translateY(-4vh);
+    transform: translateY(-6vh);
+    border: 1.5vh solid #25d6a1;
     border-radius: 25vh;
-    box-shadow: 0 0.3vh 0.3vh 0 black;
+    box-shadow: 0vh 4vh 0.2vh 0vh #3a3a3a43;
 }
-
+:is(.left:hover)::before{
+    content: '';
+    position: absolute;
+    height: 6vh;
+    width: 5vh;
+    top: 40%;
+    transition: 0s;
+    left: -38%;
+    border-radius: 0vh 4vh 0vh 4vh;
+    background-color: aquamarine;
+    box-shadow: 1.5vh -1.5vh 0vh 0vh #25d6a1;
+}
+:is(.left:hover)::after{
+    content: '';
+    position: absolute;
+    height: 6vh;
+    width: 5vh;
+    top: 40%;
+    transition: 0s;
+    right: -38%;
+    border-radius: 4vh 0vh 4vh 0vh;
+    background-color: aquamarine;
+    box-shadow: -1.5vh -1.5vh 0vh 0vh #25d6a1;
+}
 /*------------------------- Hovering Animations Over------------- */
+
+body{
+    scroll-behavior: smooth;
+    /* transition: 1s; */
+}
