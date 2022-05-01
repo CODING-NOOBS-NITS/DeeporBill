@@ -18,18 +18,19 @@ body{
 
 
 .wrapperbox{
-    display:table;
+    display:flex;
     width: 100%;
     background-image: radial-gradient(rgba(0, 128, 0, 0.498),rgba(144, 238, 144, 0.261)), url("https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg");
     align-items: center;
     justify-content: space-between;
+    background-attachment: fixed;
+    overflow: scroll ;
     padding-top: 10%;
+    transition: 1s ease;
+    padding-bottom: 10%;
     /* padding-left: 2%; */
     /* padding-right: 2%; */
-    padding-bottom: 10%;
     /* border-spacing: 16px; */
-    transition: 1s ease;
-    flex-wrap:nowrap;
 }
 
 .card, .ima
@@ -115,11 +116,14 @@ img{
 
 
 #aboutus{
-
+    border-radius: 10vh  10vh 0vh 0vh; 
     transform:translateY(-5vh);
-    padding: 6vh;
+    width: 30vh;
 }
 
+#aboutus:hover{ 
+    border-radius: 25vh;
+}
 /* --------------LOADING------------ */
 
 @keyframes loading {
