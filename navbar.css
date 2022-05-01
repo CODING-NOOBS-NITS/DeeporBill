@@ -114,6 +114,7 @@ nav .right {
     align-items: center;
     text-align: right;
     padding: 4vh;
+
 }
 
 
@@ -131,7 +132,7 @@ nav .right {
     border-radius: 25vh;
     box-shadow: 0vh 4vh 0.2vh 0vh #3a3a3a43;
 }
-:is(.left:hover,.right:hover)::before{
+:is(.left:hover)::before{
     content: '';
     position: absolute;
     height: 6vh;
