@@ -1,0 +1,88 @@
+*{
+    background-color: rgb(162, 241, 255);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.map{
+    width: 82%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(68, 211, 211);
+    margin: 15vh;
+    
+    border-radius: 10vh;
+}
+ 
+.map img{
+    height: 70vh;
+    width: 150vh;
+    border-radius: 10vh;
+}
+
+body{
+    height: 150vh;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.slider{
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    padding-left: 28vh;
+    justify-items: center;
+    
+}
+
+.hotelimages{
+    display: flex;
+    width: 100%;
+    
+
+}
+
+.hotelimages img{
+    height: 75vh;
+    width: 100%;
+    transition: all 0.15s ease;
+    
+}
+
+.dots{
+    display: flex;
+    margin: 5vh;
+    justify-content: space-evenly;
+}
+
+.dots label{
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    border:solid rgb(1, 35, 34) 3px;
+    cursor: pointer;
+    transition: all 1s ease;
+    margin: 1px;
+}
+
+.dots label:hover {background: rgb(4, 76, 87)}
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+#img4:checked ~ .m4{
+    margin-left: -300%;
+}
