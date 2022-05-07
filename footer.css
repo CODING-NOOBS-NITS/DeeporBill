@@ -1,38 +1,3 @@
-/*--------------footer 1--------------*/
-
-.footer1 {
-    height: 100px;
-    background-color: #6debc5;
-}
-
-.nav2 ul {
-    display: flex;
-}
-
-.nav2 a {
-    color: cadetblue;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-    align-items: center;
-}
-
-.nav2 .left {
-    position: absolute;
-    width: 100%;
-    padding: 40px;
-    text-align: left;
-    justify-content: space-around;
-}
-
-.nav2 .right {
-    position: absolute;
-    width: 100%;
-    padding: 40px;
-    text-align: right;
-    justify-content: space-around;
-}
-
 .footer-dark {
     padding: 0;
     color: #c1d0da;
@@ -126,30 +91,20 @@
     transition: all 0.3s ease-out;
 }
 
-.nav2 .centre {
-    position: absolute;
-    text-align: center;
-    padding: 40px;
-    width: 100%;
-}
 
 
-/*--------------footer 2--------------*/
-
-.footer2 {
-    height: 100px;
-    background-color: #6debc5;
-    width: 100%;
-}
-
-.content1 {
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-}
-
-/*--------------footer 2 over--------------*/
 .DOWN{
     padding: 5px;
     background-color: black;
+}
+.mail{
+    color: rgb(16, 16, 15);
+    
+}
+
+a{
+    color: white;
+    font-size: medium;
+    
+   
 }
