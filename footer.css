@@ -1,43 +1,71 @@
-.footer-dark {
-    padding: 0;
-    color: #c1d0da;
-    background-color: #1AE7A9;
+/*--------------footer 1--------------*/
+
+.footer1 {
+    height: 100px;
+    background-color: #6debc5;
 }
 
-.footer-dark ul {
-    color: black;
-    padding: 0;
-    list-style: none;
-    line-height: 1.6;
-    font-size: 14px;
-    margin-bottom: 0;
+.nav2 ul {
+    display: flex;
 }
 
-.footer-dark ul a {
-    color: inherit;
+.nav2 a {
+    color: cadetblue;
     text-decoration: none;
-    opacity: 0.6;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
 }
+
+.nav2 .left {
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.nav2 .right {
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+    text-align: right;
+    justify-content: space-around;
+}
+
+
 
 .copyright {
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 5px;
     opacity: 0.8;
     font-size: 20px;
     margin-bottom: 0;
 }
-.footer-dark .H3{
+.footer-dark .H3 {
     text-align: center;
     color: white;
-}
-.H3 h3{
-    color: black;
-}
-.CU-OB li{
-    text-align: center;
     font-size: large;
+}
+.footer-dark h3{
+    font-family: cursive;
+
+}
+
+.CU-OB li{
+    text-decoration: none;
+    font-family: cursive;
+    text-align: center;
+    font-size: larger;
     color: rgb(0, 0, 0);
     font-weight: bold;
+}
+.CU{
+    padding-top: 10px;
+}
+.OB{
+    padding-bottom: 10px;
 }
 
 
@@ -91,20 +119,16 @@
     transition: all 0.3s ease-out;
 }
 
+.nav2 .centre {
+    position: absolute;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
 
 
+/*--------------footer 2 over--------------*/
 .DOWN{
-    padding: 5px;
+    padding: 10px;
     background-color: black;
-}
-.mail{
-    color: rgb(16, 16, 15);
-    
-}
-
-a{
-    color: white;
-    font-size: medium;
-    
-   
 }
