@@ -1,0 +1,63 @@
+.maindiv1{
+    width: 65%;
+    height: 60vh;
+    position: relative;
+    left: 17%;
+    top: 100%;
+    margin-top: 2%;
+    background-image: url(images/home1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1vh 2vh 1vh 2vh rgb(12, 150, 134);
+    animation: slider1 12s infinite linear ;
+    border-radius: 9vh;
+}
+
+@keyframes slider1{
+    0% { background-image: url(images/home1.jpg); }
+    15% { background-image: url(images/home2.jpg); }
+    28% { background-image: url(images/home3.jpg);}
+    40% { background-image: url(images/home4.jpg); }
+    58% { background-image: url(images/home5.jpg); }
+    78% { background-image: url(images/home6.jpg); }
+    90% { background-image: url(images/home7.jpg); }
+    }
+
+}
+
+.maindiv2 img{
+    height: 60%;
+    width: 60%;
+}
+
+.maindiv2{
+    width: 65%;
+
+    height: 60vh;
+    position: relative;
+    left: 17%;
+    top: 100%;
+    margin-top: 2%;
+    background-image: url(images/home8.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1vh 2vh 1vh 2vh rgb(11, 147, 131);
+    animation: slider2 12s infinite linear ;
+    border-radius: 9vh;
+}
+
+@keyframes slider2{
+    0% { background-image: url(images/home8.jpg); }
+    15% { background-image: url(images/home9.jpg); }
+    28% { background-image: url(images/home10.jpg);}
+    40% { background-image: url(images/home11.jpg); }
+    58% { background-image: url(images/home12.jpg); }
+    78% { background-image: url(images/home13.jpg); }
+    90% { background-image: url(images/home14.jpg); }
+    }
+
+}
+
+.maindiv2 img{
+    height: 60%;
+    width: 60%;
+}
+
