@@ -60,33 +60,6 @@
     width: 100%;
 }
 
-
-/*--------------footer 2--------------*/
-
-.footer2 {
-    height: 100px;
-    background-color: #6debc5;
-    width: 100%;
-}
-
-.content1 {
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-}
-
-
-/*--------------footer 2 over--------------*/
-
-
-
-
-#home {
-
-    /* transform: translateY(-5vh); */
-    /* padding: 6vh; */
-}
-
 .div {
     width: 35px;
     height: 5px;
@@ -99,7 +72,7 @@
     /* font-family: cursive; */
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Tapestry', cursive;
-    font-size: 3rem;
+    font-size: 7vh;
     line-height: 1.4;
     letter-spacing: 0.6rem;
     text-align: center;
@@ -110,7 +83,7 @@
     /* font-family: cursive; */
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Tapestry', cursive;
-    font-size: 4rem;
+    font-size: 8vh;
     line-height: 1.4;
     letter-spacing: 0.6rem;
     text-align: center;
