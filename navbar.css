@@ -41,6 +41,8 @@
 }
 
 .nav1 {
+    font-size: 400%;
+    text-align: center;
     height: 40%;
     padding-top: 5%;
     width: 100%;
@@ -56,11 +58,15 @@ nav {
     font-family: 'Poppins', sans-serif;
     /* border-radius: 5vh; */
 }
-/* box-shadow: 0vh 4vh 0.2vh 0vh #3a3a3a43; */
-
-nav ul {
-    /* display: flex; */
+.nav1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: cursive;
+    text-transform: uppercase;
+    
 }
+
 
 nav .left a {
     color: cadetblue;
