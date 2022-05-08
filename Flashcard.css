@@ -22,7 +22,7 @@
     90% { background-image: url(images/home7.jpg); }
     }
 
-}
+
 
 .maindiv2 img{
     height: 60%;
@@ -54,10 +54,25 @@
     90% { background-image: url(images/home14.jpg); }
     }
 
-}
 
 .maindiv2 img{
     height: 60%;
     width: 60%;
 }
+.flying {
+    font-family: "Trirong", serif;
+    font-size: 3rem;
+    line-height: 1.4;
+    letter-spacing: 0.6rem;
+    text-align: center;
+    margin-top: 5vh;
+}
 
+.beauty {
+    font-family: "Trirong", serif;
+    font-size: 4rem;
+    line-height: 1.4;
+    letter-spacing: 0.6rem;
+    text-align: center;
+    margin-top: 18vh;
+}
