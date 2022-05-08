@@ -71,6 +71,16 @@ a{
         height: 100%;
         inset: 0 0 0 30%;
         transform: translateX(100%);
+        margin: 0;
+    }
+
+    .head{
+        height: 10vh;
+        margin: 0%;
+    }
+
+    h1{
+        font-size: 8vh;
     }
  }
 
