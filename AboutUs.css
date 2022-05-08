@@ -72,18 +72,23 @@ body {
     color: black;
     background-size: cover;
 }
-.text ::before{
-    width: 20vh;
-    height: 20vh;
-    background-image: url("profiles/arnab.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+
 .text {
-    background-image: radial-gradient(rgba(153, 255, 211, 0.358), rgba(0, 95, 19, 0.474));
+    background-image: radial-gradient(rgba(153, 255, 211, 0.545), rgba(0, 95, 19, 0.476));
     background-repeat: no-repeat;
     color: white;
     transform: rotateY(180deg);
+}
+
+img{
+    position: absolute;
+    left: 0vh;
+    width: 40vh;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25vh;
+    z-index: -1;
 }
 
 /* ================================================================== */
