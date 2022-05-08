@@ -3,7 +3,7 @@
 /*--------------HOME PAGE------------------ */
 @media only screen and (max-width: 840px) {
     .content {
-        margin: 5vh;
+        margin: -1vh;
     }
     
     /*---------------- Responsive Navbar--------------- */
@@ -49,7 +49,7 @@ a{
         visibility: visible;
         display: block;
     }
-    #aboutus{
+    .right{
         position: absolute;
         bottom: 10%;
     }
@@ -71,3 +71,6 @@ a{
         visibility: hidden;
     }
  }
+
+
+ /*================ PC Unique================== */

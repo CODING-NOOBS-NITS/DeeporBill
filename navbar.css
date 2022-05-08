@@ -50,6 +50,7 @@
 }
 
 nav {
+    z-index: 2;
     justify-content: space-around;
     align-items: center;
     min-height: 12vh;
@@ -137,8 +138,8 @@ nav .right {
     border: 1.6vh solid #25d6a1;
     transform: translateY(-6vh);
     transition: transform 500ms;
-    border-radius: 25vh;
     box-shadow: 0vh 4vh 0.2vh 0vh #3a3a3a43;
+    border-radius: 25vh;
 }
 
 .right:hover {
@@ -151,6 +152,7 @@ nav .right {
 
 :is(.left:hover)::before {
     content: '';
+    /* border-top: 5vh solid aquamarine; */
     position: absolute;
     height: 6vh;
     width: 5vh;
@@ -183,7 +185,7 @@ body {
 }
 
 
-.active {
+#active {
     content: '';
     position: absolute;
     height: 6vh;
@@ -191,7 +193,22 @@ body {
     top: 40%;
     transition: 0s;
     left: -38%;
-    border-radius: 0vh 4vh 0vh 4vh;
+    border-radius: 4vh 4vh 4vh 4vh;
     background-color: aquamarine;
-    box-shadow: 1.5vh -1.5vh 0vh 0vh #25d6a1;
+    /* box-shadow: 1.5vh -1.5vh 0vh 0vh #25d6a1; */
+    box-shadow: 1.5vh 1.5vh 0vh 0vh #25d6a1;
+}
+
+
+
+#actives {
+    border-radius: 10vh 10vh 10vh 10vh;
+    /* transform: translateY(-5vh); */
+    width: 30vh;
+}
+
+#actives:hover {
+    transform: translateY(0vh);
+    border: 1vh solid green;
+    border-radius: 25vh;
 }

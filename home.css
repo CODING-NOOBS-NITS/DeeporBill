@@ -97,7 +97,8 @@
 
 .flying {
     /* font-family: cursive; */
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Tapestry', cursive;
     font-size: 3rem;
     line-height: 1.4;
     letter-spacing: 0.6rem;
@@ -107,7 +108,8 @@
 
 .beauty {
     /* font-family: cursive; */
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Tapestry', cursive;
     font-size: 4rem;
     line-height: 1.4;
     letter-spacing: 0.6rem;
@@ -117,4 +119,5 @@
 
 p{
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vh;
 }
