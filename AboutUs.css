@@ -7,113 +7,84 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-   
+body {
+
     background-color: #25d6a1;
+    z-index: 5;
+    overflow-x: hidden;
 }
 
 /* -------------BOxes--------------------- */
 
 
-.wrapperbox{
-    display:flex;
+.wrapperbox {
+    z-index: 2;
+    display: flex;
     width: 100%;
-    background-image: radial-gradient(rgba(0, 128, 0, 0.498),rgba(144, 238, 144, 0.261)), url("https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg");
+    background-image: radial-gradient(rgba(0, 128, 0, 0.498), rgba(144, 238, 144, 0.261)), url("https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg");
     align-items: center;
     justify-content: space-between;
     background-attachment: fixed;
-    overflow: scroll ;
+    overflow: scroll;
     padding-top: 10%;
     transition: 1s ease;
     padding-bottom: 10%;
-    /* padding-left: 2%; */
-    /* padding-right: 2%; */
-    /* border-spacing: 16px; */
 }
+.card{margin: 5vh;}
 
-.card, .ima
-{
-    width: 20%;
+.card,.ima {
     height: 20%;
-    min-height:40vh;
+    width: 20%;
     min-width: 40vh;
-}
-
-.card{
-    float:left;
-    word-wrap:break-word;
-    margin: 5vh;
-    background-image: linear-gradient(rgba(153, 255, 211, 0.869),rgba(0, 95, 19, 0.879)),url("images/aboutus.png");
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    text-decoration: solid;
-    text-overflow:ellipsis;
-    /* align-items: flex-start; */
-    box-shadow: 0px 10px 16px rgb(0, 49, 46);
+    min-height: 40vh;
+    /* box-shadow: 0px 10px 16px rgb(0, 49, 46); */
+    /* margin: 5vh; */
     transition: 1s ease-in-out;
-    overflow: hidden;
     border-radius: 12vh;
-    transition: transform  1s ease-in;
-    justify-content: center;
-    
-}
-.card:hover{
-    box-shadow: 0px 8px 13px rgb(0, 0, 0);
-    transform: translateY(-10vh);
-    transition: 0.5s ease-in-out;
 }
 
-.card:hover :is(.ima,.text){
-    transform: translateY(-40vh);
-    display: block;
-    transition: transform  0.5s ease-in;
+.inner-card{
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
-.ima{
-    width: 50vh;
-    height:50vh;
-    padding-top: 100%;
-    border-radius: 10vh;
-    background-image: url("images/aboutus.png");
-    background-image: (linear-gradient(rgba(0, 0, 0, 0.511),rgba(36, 36, 36, 0.448)),url("images/aboutus.png"));
-    background-position:center;
-    background-size: cover;
+.card:hover .inner-card {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+
+.ima,.text {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
     background-repeat: no-repeat;
 }
 
-.card:hover h2{
-    display: block;
+
+.ima {
+    background-image: url("images/aboutus.png");
+    color: black;
+    background-size: cover;
 }
-.card:hover p{
-    display: block;
+.text ::before{
+    width: 20vh;
+    height: 20vh;
+    background-image: url("profiles/arnab.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-h2{padding-top: 50%;}
-h2,p{ 
-    color: rgb(0, 0, 0);
-    font-size: 3vh;
-    width: 85%;
-    display: none;
-    padding-left: 5%;
-    padding-right: 2%;
-    text-justify: newspaper;
-    /* word-wrap:break-word; */
-    text-overflow: ellipsis;
+.text {
+    background-image: radial-gradient(rgba(153, 255, 211, 0.358), rgba(0, 95, 19, 0.474));
+    background-repeat: no-repeat;
+    color: white;
+    transform: rotateY(180deg);
 }
-
-img{
-    border-radius: 10vh;
-    width: cover;
-    align-items: center;
-    align-self: center;
-    height:inherit;
-    object-fit: cover;
-}
-
-
-
-
 
 /* ================================================================== */
 
@@ -122,13 +93,13 @@ img{
 /* --------------LOADING------------ */
 
 @keyframes loading {
-        0% {
-            transform: rotate(0deg);
-        }
-        
-        100% {
-            transform: rotate(360deg);
-        }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .fbox {

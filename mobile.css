@@ -42,6 +42,7 @@ a{
         display: flex;
         flex-direction: column;
         padding: 5%;
+        border-bottom: 0.5vh solid green;
     }
 
     #nav-button {
@@ -49,14 +50,19 @@ a{
         visibility: visible;
         display: block;
     }
+    .left{
+    margin: 1%;
+    width: 100vh;
+    }
     .right{
         position: absolute;
         bottom: 10%;
+        border: 0.1vh solid green;
     }
     nav {
         transition: 0.5s ease-in;
         visibility: visible;
-        background-color:rgb(0 61 35 / 94%);
+        background-color:green;
         position: fixed;
         top: 0;
         right: 0;
@@ -66,11 +72,82 @@ a{
     }
  }
 
+ /*💻💻💻💻================ PC Unique==================💻💻💻💻 */
+
  @media only screen and (min-width:886px) {
     #nav-button,#nav-close {
         visibility: hidden;
     }
+
+        #actives {
+            border-radius: 10vh 10vh 10vh 10vh;
+            transform: translateY(-5vh);
+            width: 30vh;
+        }
+    
+        #actives:hover {
+            transform: translateY(-5vh);
+            border: 1vh solid green;
+            border-radius: 25vh;
+        }
+    
+        #actives::before,
+        #actives::after {
+            width: 0%;
+            height: 0%;
+        }
+
+               /*-------------------- Hovering Animations--------------- */
+        
+                /* Navbar Buttons */
+                :is(.left:hover) {
+                    /* :is(.left, .right) { */
+                    color: rgb(0, 37, 39);
+                    border: 1.6vh solid #25d6a1;
+                    transform: translateY(-6vh);
+                    transition: transform 500ms;
+                    box-shadow: 0vh 4vh 0.2vh 0vh #3a3a3a43;
+                    border-radius: 25vh;
+                }
+        
+                .right:hover {
+                    /* border: 0.1vh solid black; */
+                    /* background-image: radial-gradient(rgba(255, 255, 255, 0.265),#25d6a1); */
+                    transform: translateY(-6vh);
+                    transition: transform 1s;
+                    box-shadow: 1vh 1vh 1vh 1vh #3a3a3a43;
+                }
+        
+                :is(.left:hover)::before {
+                    content: '';
+                    /* border-top: 5vh solid aquamarine; */
+                    position: absolute;
+                    height: 6vh;
+                    width: 5vh;
+                    top: 40%;
+                    transition: 0s;
+                    left: -38%;
+                    border-radius: 0vh 4vh 0vh 4vh;
+                    background-color: aquamarine;
+                    box-shadow: 1.5vh -1.5vh 0vh 0vh #25d6a1;
+                }
+        
+                :is(.left:hover)::after {
+                    content: '';
+                    position: absolute;
+                    height: 6vh;
+                    width: 5vh;
+                    top: 40%;
+                    transition: 0s;
+                    right: -38%;
+                    border-radius: 4vh 0vh 4vh 0vh;
+                    background-color: aquamarine;
+                    box-shadow: -1.5vh -1.5vh 0vh 0vh #25d6a1;
+                }
+        
+                /*------------------------- Hovering Animations Over------------- */
+
+
+
  }
 
-
- /*================ PC Unique================== */
