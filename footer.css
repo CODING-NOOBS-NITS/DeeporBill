@@ -1,37 +1,4 @@
-/*--------------footer 1--------------*/
 
-.footer1 {
-    height: 100px;
-    background-color: #6debc5;
-}
-
-.nav2 ul {
-    display: flex;
-}
-
-.nav2 a {
-    color: cadetblue;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-    align-items: center;
-}
-
-.nav2 .left {
-    position: absolute;
-    width: 100%;
-    padding: 40px;
-    text-align: left;
-    justify-content: space-around;
-}
-
-.nav2 .right {
-    position: absolute;
-    width: 100%;
-    padding: 40px;
-    text-align: right;
-    justify-content: space-around;
-}
 .footer-dark {
     padding: 0;
     color: #c1d0da;
