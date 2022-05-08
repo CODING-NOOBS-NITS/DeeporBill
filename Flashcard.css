@@ -31,7 +31,6 @@
 
 .maindiv2{
     width: 65%;
-
     height: 60vh;
     position: relative;
     left: 17%;
@@ -59,20 +58,4 @@
     height: 60%;
     width: 60%;
 }
-.flying {
-    font-family: "Trirong", serif;
-    font-size: 3rem;
-    line-height: 1.4;
-    letter-spacing: 0.6rem;
-    text-align: center;
-    margin-top: 5vh;
-}
 
-.beauty {
-    font-family: "Trirong", serif;
-    font-size: 4rem;
-    line-height: 1.4;
-    letter-spacing: 0.6rem;
-    text-align: center;
-    margin-top: 18vh;
-}

@@ -57,5 +57,4 @@ document.getElementById("footer").innerHTML=`
             </section>
        
        </div>
-</footer>
-`
+</footer>`
