@@ -8,7 +8,9 @@
     
     /*---------------- Responsive Navbar--------------- */
 
-
+.nav1{
+ font-size: 20vh;
+}
 
 a{ 
     font: 50vh;
@@ -69,6 +71,16 @@ a{
         height: 100%;
         inset: 0 0 0 30%;
         transform: translateX(100%);
+        margin: 0;
+    }
+
+    .head{
+        height: 10vh;
+        margin: 0%;
+    }
+
+    h1{
+        font-size: 8vh;
     }
  }
 
@@ -81,12 +93,13 @@ a{
 
         #actives {
             border-radius: 10vh 10vh 10vh 10vh;
-            transform: translateY(-5vh);
+            transform: translateY(5vh);
             width: 30vh;
+            z-index: 4;
         }
     
         #actives:hover {
-            transform: translateY(-5vh);
+            transform: translateY(5vh);
             border: 1vh solid green;
             border-radius: 25vh;
         }

@@ -9,9 +9,9 @@
 
 body {
 
-    background-color: #25d6a1;
+    background-color: #25d6a180;
     z-index: 5;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* -------------BOxes--------------------- */
@@ -21,7 +21,7 @@ body {
     z-index: 2;
     display: flex;
     width: 100%;
-    background-image: radial-gradient(rgba(0, 128, 0, 0.498), rgba(144, 238, 144, 0.261)), url("https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg");
+    background-image: radial-gradient(rgba(0, 128, 0, 0.284), rgba(144, 238, 144, 0.19)), url("https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg");
     align-items: center;
     justify-content: space-between;
     background-attachment: fixed;
