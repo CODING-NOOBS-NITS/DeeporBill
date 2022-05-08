@@ -41,6 +41,7 @@ body{
 
 .card{
     float:left;
+    word-wrap:break-word;
     margin: 5vh;
     background-image: linear-gradient(rgba(153, 255, 211, 0.869),rgba(0, 95, 19, 0.879)),url("images/aboutus.png");
     background-position: center;
@@ -92,9 +93,13 @@ h2{padding-top: 50%;}
 h2,p{ 
     color: rgb(0, 0, 0);
     font-size: 3vh;
+    width: 85%;
     display: none;
     padding-left: 5%;
     padding-right: 2%;
+    text-justify: newspaper;
+    /* word-wrap:break-word; */
+    text-overflow: ellipsis;
 }
 
 img{
@@ -113,15 +118,7 @@ img{
 /* ================================================================== */
 
 
-#aboutus{
-    border-radius: 10vh  10vh 0vh 0vh; 
-    transform:translateY(-5vh);
-    width: 30vh;
-}
 
-#aboutus:hover{ 
-    border-radius: 25vh;
-}
 /* --------------LOADING------------ */
 
 @keyframes loading {
