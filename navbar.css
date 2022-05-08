@@ -1,27 +1,27 @@
-#nav-button{
-    /* visibility: hidden; */
-    /* display: none; */
+#nav-button {
     width: 7vh;
     height: 7vh;
     padding: 2%;
     margin: 1%;
     position: absolute;
-    top:0%;
-    right:0%;
+    top: 0%;
+    right: 0%;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6m1HrkuwCqUZY2l_b0Li_1U8XBXhfFUbEYg&usqp=CAU");
     background-position: center;
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 25vh;
-    /* border: none; */
     box-shadow: 0 0 10vh 0.5vh;
     border: 0.5vh solid rgb(37 214 161);
+    /* visibility: hidden; */
+    /* display: none; */
+    /* border: none; */
 }
 
-#nav-close{
+#nav-close {
     position: absolute;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     width: 7vh;
     height: 7vh;
     padding: 2%;
@@ -56,15 +56,16 @@ nav {
     font-size: 2vh;
     background-color: aquamarine;
     font-family: 'Poppins', sans-serif;
-    border-radius: 5vh;
+    /* border-radius: 5vh; */
 }
+
 .nav1 {
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
     font-family: cursive;
     text-transform: uppercase;
-    
+
 }
 
 
@@ -101,8 +102,7 @@ nav .left {
     margin: 0 5vh;
 }
 
-nav .right {    
-    width: 20vh;
+nav .right {
     /* background-color: aquamarine; */
     /* width: 10%; */
     /* float: right; */
@@ -111,6 +111,8 @@ nav .right {
     /* margin: 0.5%; */
     /* align-items: center; */
     /* justify-content: center; */
+    width: 30vh;
+    padding: 4vh;
     background-color: aquamarine;
     float: right;
     list-style: none;
@@ -120,7 +122,6 @@ nav .right {
     border-radius: 25vh;
     align-items: center;
     text-align: right;
-    padding: 4vh;
 
 }
 
@@ -130,16 +131,25 @@ nav .right {
 /*-------------------- Hovering Animations--------------- */
 
 /* Navbar Buttons */
-:is(.left:hover, .right:hover) {
-/* :is(.left, .right) { */
-    /* color: rgb(0, 37, 39); */
-    transition: 1s;
+:is(.left:hover) {
+    /* :is(.left, .right) { */
+    color: rgb(0, 37, 39);
+    border: 1.6vh solid #25d6a1;
     transform: translateY(-6vh);
-    border: 1.5vh solid #25d6a1;
+    transition: transform 500ms;
     border-radius: 25vh;
     box-shadow: 0vh 4vh 0.2vh 0vh #3a3a3a43;
 }
-:is(.left:hover)::before{
+
+.right:hover {
+    /* border: 0.1vh solid black; */
+    /* background-image: radial-gradient(rgba(255, 255, 255, 0.265),#25d6a1); */
+    transform: translateY(-6vh);
+    transition: transform 1s;
+    box-shadow: 1vh 1vh 1vh 1vh #3a3a3a43;
+}
+
+:is(.left:hover)::before {
     content: '';
     position: absolute;
     height: 6vh;
@@ -151,7 +161,8 @@ nav .right {
     background-color: aquamarine;
     box-shadow: 1.5vh -1.5vh 0vh 0vh #25d6a1;
 }
-:is(.left:hover)::after{
+
+:is(.left:hover)::after {
     content: '';
     position: absolute;
     height: 6vh;
@@ -163,9 +174,24 @@ nav .right {
     background-color: aquamarine;
     box-shadow: -1.5vh -1.5vh 0vh 0vh #25d6a1;
 }
+
 /*------------------------- Hovering Animations Over------------- */
 
-body{
+body {
     scroll-behavior: smooth;
     /* transition: 1s; */
+}
+
+
+.active {
+    content: '';
+    position: absolute;
+    height: 6vh;
+    width: 5vh;
+    top: 40%;
+    transition: 0s;
+    left: -38%;
+    border-radius: 0vh 4vh 0vh 4vh;
+    background-color: aquamarine;
+    box-shadow: 1.5vh -1.5vh 0vh 0vh #25d6a1;
 }
