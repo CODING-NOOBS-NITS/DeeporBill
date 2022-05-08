@@ -1,8 +1,12 @@
 *{
-    background-color: rgb(162, 241, 255);
+    margin-top: 0; 
+    list-style: none; 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: rgb(162, 241, 255);
 }
 
 .map{
@@ -13,8 +17,7 @@
     flex-direction: column;
     display: flex;
     background-color: rgb(68, 211, 211);
-    margin: 15vh;
-    
+    margin: 15vh;   
     border-radius: 10vh;
 }
  
@@ -25,8 +28,7 @@
 }
 
 body{
-    height: 150vh;
-    
+    height: 150vh;    
     justify-content: center;
     align-items: center;
     
