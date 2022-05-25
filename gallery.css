@@ -1,3 +1,4 @@
+
 .imgtext {
     display: grid;
     padding: 2rem;
@@ -63,4 +64,20 @@
     opacity: 60%;
     width: 100%;
     height: auto;
+
+.imgtext {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 40vh 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+}
+
+.imgtext img {
+    max-width: 100%;
+    height: auto;
+
 }
