@@ -1,88 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DiporBill</title>
-
-    <link href="AboutUs.css" rel="stylesheet">
-    <link href="home.css" rel="stylesheet">
-    <link href="footer.css" rel="stylesheet">
-    <link href="home-inline.css" rel="stylesheet">
-    <link href="home.css" rel="stylesheet">
-    <link href="mobile.css" rel="stylesheet">
-    <link href="navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-</head>
-
+<script src="linkfiles.js"></script>
 <body>
     <div id="fbox" class="fbox">
         <div class="circle"></div>
     </div>
     <!-- Headings-->
-    <div class="head">
-
-        <div class="multicolour"><!-- Colours--></div>
-        <div id="navbar-js"></div>
-            <div class="nav1">
-                <button id="nav-button"></button>
-                <!-- Shade 1-->
-            </div>
-            <nav>
-                <!-- Shade 2 with Navlinks-->
-                <ul>
-                    <li class="left"><a href="Home.html">Home</a></li>
-                    <li class="left"><a href="#">Gallery</a></li>
-                    <li class="left"><a href="map.html">Map</a></li>
-                    <li class="left"><a href="Tour guide.html">Guide</a></li>
-                    <li id="actives" class="right"><a href="AboutUs.html">About us</a></li>
-                    <button id="nav-close">X</button>
-                </ul>
-            </nav>
-            </div>
+   <div id="fixed-nav"></div>
+            <button id="nav-button"></button>
+            <!-- Shade 1-->
+        </div>
+        <nav>
+            <!-- Shade 2 with Navlinks-->
+            <ul>
+                <li class="left"><a href="Home.html">Home</a></li>
+                <li class="left"><a href="#">Gallery</a></li>
+                <li class="left"><a href="map.html">Map</a></li>
+                <li class="left"><a href="Tour guide.html">Guide</a></li>
+                <li id="actives" class="right"><a href="AboutUs.html">About us</a></li>
+                <button id="nav-close"></button>
+            </ul>
+        </nav>
+    </div>
 
     </div>
 
     <div class="Containers">
         <div class="wrapperbox">
             <div class="card">
-                <div class="ima">
-                    <h2>Arnab Kumar Singh</h2>
-                    <p>Exceptional Coder with Algorithm in veins </p>
+                <div class="inner-card">
+                    <img src="profiles/arnab.jpg" alt="">
+                    <div class="ima"></div>
+                    <div class="text">
+                        <h2>Arnab Kumar Singh</h2>
+                        <p>Exceptional Coder with Algorithm in veins </p>
+                    </div>
 
-                </div>
-
-            </div>
-
-            <div class="card">
-
-                <div class="ima">
-                    <h2>Mrityunjoy Chinte</h2>
-                    <p>Creativity still hustles !</p>
                 </div>
             </div>
 
 
             <div class="card">
+                <div class="inner-card">
+                    <img src="profiles/mj.jpg" alt="">
 
-                <div class="ima">
-                    <h2>Vishnu Padmakumar</h2>
-                    <p>Hustling within the dev world</p>
+                    <div class="ima"></div>
+                    <div class="text">
+                        <h2>Mrityunjoy Chinte</h2>
+                        <p>Creativity still hustles !</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="inner-card">
+                    <img src="profiles/vishnu.jpg" alt="">
+                    <div class="ima"></div>
+                    <div class="text">
+                        <h2>Vishnu Padmakumar</h2>
+                        <p>Hustling within the dev world</p>
+                    </div>
                 </div>
             </div>
 
 
             <div class="card">
-
-                <div class="ima">
-                    <h2>Aryadeep Gogoi</h2>
-                    <p>Exploring domains with passion</p>
+                <div class="inner-card">
+                    <img src="profiles/arya.jpg" alt="">
+                    
+                    <div class="ima"></div>
+                    <div class="text">
+                        <h2>Aryadeep Gogoi</h2>
+                        <p>Exploring domains with passion</p>
+                    </div>
                 </div>
             </div>
-
         </div>
+
+    </div>
 
     </div>
 
@@ -93,5 +88,5 @@
 <script src="footer.js"></script>
 <script src="navbar.js"></script>
 <script src="loading_animation.js"></script>
-
+<script src="cards.js"></script>
 </html>
