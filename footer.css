@@ -112,7 +112,7 @@ a {
 .wrapper .button:hover .icon i {
     color: #fff;
 }
-.icon i:hover{
+.icon:hover{
     transform: translateY(-2vh);
 
 }
