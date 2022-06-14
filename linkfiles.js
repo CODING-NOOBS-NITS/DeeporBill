@@ -10,7 +10,7 @@ document.write(`
     <!-- Stylesheets -->
     <link href="Home.css" rel="stylesheet">
     <link href="home.css" rel="stylesheet">
-    <link href="AboutUs.css" rel="stylesheet">
+  
     <link href="footer.css" rel="stylesheet">
     <link href="home-inline.css" rel="stylesheet">
     <link href="map.css" rel="stylesheet">
