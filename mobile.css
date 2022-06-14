@@ -92,16 +92,17 @@ a{
     }
 
         #actives {
-            border-radius: 10vh 10vh 10vh 10vh;
-            transform: translateY(5vh);
+            border-radius: 10vh 0vh 10vh 0vh;
+            border: 2vh solid rgb(0, 255, 0);
+            /* transform: translateY(5vh); */
             width: 30vh;
             z-index: 4;
         }
     
         #actives:hover {
-            transform: translateY(5vh);
+            /* transform: translateY(5vh); */
             border: 1vh solid green;
-            border-radius: 25vh;
+            border-radius: 10vh 0vh 10vh 0vh;
         }
     
         #actives::before,
@@ -116,11 +117,11 @@ a{
                 :is(.left:hover) {
                     /* :is(.left, .right) { */
                     color: rgb(0, 37, 39);
-                    border: 1.6vh solid #25d6a1;
+                    border: 1.5vh solid #25d6a1;
                     transform: translateY(-6vh);
                     transition: transform 500ms;
                     box-shadow: 0vh 4vh 0.2vh 0vh #3a3a3a43;
-                    border-radius: 25vh;
+                    border-radius: 10vh 0vh 10vh 0vh;
                 }
         
                 .right:hover {
@@ -135,16 +136,17 @@ a{
                     content: '';
                     /* border-top: 5vh solid aquamarine; */
                     position: absolute;
-                    height: 6vh;
-                    width: 5vh;
-                    top: 40%;
+                    height: 2vh;
+                    width: 5.85vh;
+                    top: 37%;
+                    border-top: 5vh aquamarine solid;
                     transition: 0s;
-                    left: -38%;
+                    left: -43%;
                     border-radius: 0vh 4vh 0vh 4vh;
                     background-color: aquamarine;
-                    box-shadow: 1.5vh -1.5vh 0vh 0vh #25d6a1;
+                    box-shadow: 1.6vh -1.5vh 0vh 0vh #25d6a1;
                 }
-        
+                
                 :is(.left:hover)::after {
                     content: '';
                     position: absolute;
