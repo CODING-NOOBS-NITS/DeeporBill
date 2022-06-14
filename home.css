@@ -17,6 +17,7 @@
 }
 
 body{
+    filter:invert(180deg);
     background-color: rgba(245, 222, 179, 0.151);
 }
 
