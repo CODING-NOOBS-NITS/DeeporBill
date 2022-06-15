@@ -4,7 +4,7 @@
 
     <!-- Flash Cards-->
 
-    <button class="topBtn" onclick="topFunction()">Top</button>
+    <button class="topBtn" onclick="topFunction()" id="myBtn" title="top">Top</button>
     <style>
         .topBtn{
             border-radius: 50%;
@@ -25,6 +25,7 @@
     </style>
 
     <script>
+        mybutton= document.getElementById(myBtn);
         function topFunction(){
             document.documentElement.scrollTop = 0;
 
@@ -93,7 +94,7 @@
     <!--Paragraph over-->
     <!--IMG-->
     <div class="container1">
-        <img class="img1" src="/images/home12.jpg" alt="image 1" width="90%" height="" >
+        <img class="img1" src="images/home12.jpg " alt="image 1" width="90%" height="" >
         <style>
             .container1 img{
                 margin-left:12vh;
