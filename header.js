@@ -22,3 +22,4 @@ document.write(`<div class="head">
         </nav>
     </div>
         `);
+

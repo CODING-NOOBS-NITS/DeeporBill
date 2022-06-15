@@ -7,9 +7,13 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     animation: fadein;
-    animation-duration: 1s;    
+    animation-duration: 1s;   
+    scroll-behavior: smooth; 
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .content {
     margin: 10vh;
