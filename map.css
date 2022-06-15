@@ -19,13 +19,13 @@
     width: 80%;
     height: 88vh;
     justify-content: center;
-    margin-top: 7vh;
+
     margin-left: 20vh;
-    background-color:  rgb(117, 205, 205);
+    background-color:  rgb(136, 206, 206);
     text-align: center;
-    padding: 5vh;
+    padding: 4vh;
     border-radius: 5vh;
-    box-shadow:  -40px 30px 20px rgb(47, 171, 199)
+    box-shadow: 0 0 6vh rgb(0, 30, 38);
     
 }
 
@@ -40,12 +40,13 @@
 }
 
 iframe{
-    width: 96%;
+    width: 98%;
     height: 75vh;
-    padding: 7%;
-    margin-left: 3vh;
-    margin-top: 12vh;
+    padding: 3%;
+    margin-left: 2vh;
+
     display: flex;
+    border-radius: 50px;
     
 
     

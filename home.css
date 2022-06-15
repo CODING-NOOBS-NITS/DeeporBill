@@ -7,9 +7,13 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     animation: fadein;
-    animation-duration: 1s;    
+    animation-duration: 1s;   
+    
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .content {
     margin: 10vh;
@@ -33,28 +37,29 @@ body{
     /* font-family: 'Raleway', sans-serif; */
   
     font-family: 'Tapestry', cursive;
-    font-size: 10vh;
+    font-size: 5vh;
     line-height: 1.4;
     text-align: center;
     letter-spacing: 1vh;
-    margin-top: 5vh;
-    padding: 5%;
+    margin-top: 4vh;
+ 
 }
 
 .beauty {
     /* font-family: cursive; */
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Tapestry', cursive;
-    font-size: 10vh;
+    font-size:5vh;
     line-height: 1.4;
     text-align: center;
-    margin-top: 18vh;
+    margin-top: 14vh;
     letter-spacing: 1vh;
 }
 
 p{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.6vh;
+    font-weight: 100;
 }
 
 @keyframes fadein {
