@@ -1,14 +1,15 @@
 .maindiv1{
     width: 65%;
-    height: 60vh;
+    height: 58vh;
     position: relative;
     left: 17%;
     top: 100%;
     margin-top: 2%;
     background-image: url(images/home1.jpg);
     background-size: 100% 100%;
-    box-shadow: 1vh 2vh 1vh 2vh rgb(12, 150, 134);
-    animation: slider1 12s infinite linear ;
+    box-shadow: 0 0 6vh rgb(0, 24, 35);
+
+    animation: slider1 18s infinite linear ;
     border-radius: 9vh;
 }
 
@@ -38,8 +39,8 @@
     margin-top: 2%;
     background-image: url(images/home8.jpg);
     background-size: 100% 100%;
-    box-shadow: 1vh 2vh 1vh 2vh rgb(11, 147, 131);
-    animation: slider2 12s infinite linear ;
+    box-shadow: 0 0 6vh rgb(0, 24, 35);
+    animation: slider2 18s infinite linear ;
     border-radius: 9vh;
 }
 
