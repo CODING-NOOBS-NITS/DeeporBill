@@ -9,7 +9,7 @@
     background-size: 100% 100%;
     box-shadow: 0 0 6vh rgb(0, 24, 35);
 
-    animation: slider1 18s infinite linear ;
+    animation: slider1 20s infinite linear ;
     border-radius: 9vh;
 }
 
@@ -40,7 +40,7 @@
     background-image: url(images/home8.jpg);
     background-size: 100% 100%;
     box-shadow: 0 0 6vh rgb(0, 24, 35);
-    animation: slider2 18s infinite linear ;
+    animation: slider2 20s infinite linear ;
     border-radius: 9vh;
 }
 
