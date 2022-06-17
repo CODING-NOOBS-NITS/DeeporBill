@@ -90,10 +90,9 @@
 
 /* ..........mobile view........... */
 
-@media only screen and (max-width : 768px)
-    {
-        width: .imgtext::after;
-    }
+@media only screen and (max-width : 768px){
+    
+}
 
     .multi-gallery-row{
         width: 100%;
