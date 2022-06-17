@@ -5,10 +5,215 @@
 
     <div class="map">
         <h1>Location Map Deepor Bill</h1>
-        <img src="sitemap.png" alt="">
+        <img src="images/sitemap.png" alt="">
     </div>
 
-    <div class="slider">
+
+    
+    <section class="testimonial-section section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 >Hotels-Nearby</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="testi-box">
+                <div class="testi-slider">
+                    <div class="testi-slider-container" >
+
+                        <div class="tesi-item">
+        
+                            <p>Hotel Palacio
+                            </p>
+                            <img src="images/hotel1.jpg" alt="testimonial" class="testiimg">
+                            <p>15.1 KM from Deepor Beel Wildlife Sanctuary.  a Premium Business Class Hotel is located strategically in the centre of Guwahati's heart on the lively and buzzing G.S. Road. It is built to cater a modern and refreshing service to its guests, pampering them with royalty. </p>
+                            
+                        </div>
+
+                        
+                        
+
+                    </div>
+
+                   
+
+                    
+                </div>
+
+                <div class="testi-slider-nav">
+                    <span class="prev"><i class="fa fa-angle-left" style="font-size: 23px"></i></span>
+                    <span class="next"><i class="fa fa-angle-right" style="font-size: 23px"></i></span>
+                </div>
+
+    
+
+            </div>
+        </div>
+
+        
+
+    
+
+
+    </section>
+
+    <style>
+
+
+
+
+
+.testimonial-section{
+    padding:100px 0 100px;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.testimonial-section h2{
+    margin-left: 88vh;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.testimonial-section .testi-box{
+    width: 40%;
+    max-width:130vh ;
+    height: 73vh;
+    margin: auto;
+    background-color: #71b4c8;
+    text-align: center;
+    padding: 7vh;
+    margin-top: 1.6vh;
+    
+    border-radius: 36px;
+    transition: all 0.8s ease;
+    
+
+
+}
+
+.testimonial-section .testi-box:hover{
+    background-color: #36889f;
+}
+
+.testimonial-section .testi-slider{
+    overflow: hidden;
+}
+
+.testimonial-section .testi-slider-container{
+    display: flex;
+    
+    
+    
+    
+    transition: margin 1s ease;
+}
+
+.testimonial-section .testi-slider-container .testiimg{
+    max-height: 65vh;
+    max-width: 50vh;
+    margin-left: -63vh;
+    
+    padding: 2vh;
+
+}
+
+.testimonial-section .testi-box p{
+    font-size: 18px;
+    font-style: italic;
+    width: 65vh;
+    padding: 0 3vh 5vh;
+    margin-left: -65vh;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.testimonial-section .testi-slider-nav{
+    
+    color: #cfffff;
+    margin-top: 0.5vh;
+   
+    text-align: center;
+    
+    
+}
+
+.testimonial-section .testi-slider-nav span{
+    display: inline-block;
+    height: 5vh;
+    width: 5vh;
+    padding: 1vh;
+    border-radius: 50%;
+    background-color: #004249;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    margin-left: 2vh;
+
+}
+
+.testimonial-section .testi-slider-nav span:hover{
+    background-color: #00242e;
+}
+    </style>
+
+
+
+    <script>
+    
+        (() =>{
+             const sliderContainer = document.querySelector(".testi-slider-container"),
+             slides = sliderContainer.querySelectorAll(".testi-item");
+             slideWidth = sliderContainer.offsetWidth,
+             prevBtn = document.querySelector(".testi-slider-nav .prev"),
+             nextBtn = document.querySelector(".testi-slider-nav .next");
+             let slideIndex = 0;
+        
+             slides.forEach((slide) =>{
+                 
+                 slide.style.width = slideWidth + "px";
+             })
+        
+            sliderContainer.style.width = slideWidth * slides.length + "px";
+        
+            nextBtn.addEventListener("click",()=>{
+                if(slideIndex === slides.length-1){
+                    slideIndex = 0;
+                }
+                else{
+                    slideIndex++;
+                }
+                sliderContainer.style.marginLeft = - (slideWidth * slideIndex) + "px";
+            })
+        
+            prevBtn.addEventListener("click",()=>{
+                if(slideIndex === 0){
+                    slideIndex= slides.length-1;
+                }
+                else{
+                    slideIndex --;
+                }
+                sliderContainer.style.marginLeft = - (slideWidth * slideIndex) + "px";
+            }) 
+         
+        })();
+        
+        
+        </script>
+        
+
+
+        
+
+
+
+
+
+
+    <!-- <div class="slider">
         <div class="hotelimages">
 
             <input type="radio" name="slide" id="img1" checked>
@@ -30,7 +235,7 @@
             <label for="img4"></label>
         </div>
 
-    </div>   
+    </div>    -->
 </body>
     <div id="footer"></div>
     <script src="footer.js"></script>
