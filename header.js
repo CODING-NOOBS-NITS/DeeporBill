@@ -4,7 +4,7 @@ document.write(`<div class="head">
             <!-- Colours-->
         
         <div class="nav1"><!-- Shade 1-->
-        <div class="nav1"><h1>Dipor Bill</h1>
+        <div class="nav1"><h1>Deepor Bill</h1>
         <button id="nav-button"></button></div></div>
         
           <div class="head">

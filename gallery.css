@@ -87,3 +87,27 @@
     height: auto;
 
 }
+
+/* ..........mobile view........... */
+
+@media only screen and (max-width : 768px){
+    
+}
+
+    .multi-gallery-row{
+        width: 100%;
+        display: flex;
+
+    }
+    .gallery-heading{
+        font-size: 40px;
+    }
+    #row1{
+        display:list-item;
+    }
+    #row2{
+        display: list-item;
+    }
+    #row3{
+        display: list-item;
+    }
