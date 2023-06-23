@@ -10,7 +10,19 @@
     animation-duration: 1s;   
     
 }
-
+#myBtn{
+    border-radius: 50%;
+    height: 6vh;
+    width: 6vh;
+    background-color: rgba(0, 47, 66, 0.317);
+    color: rgb(182, 221, 255);
+    margin-left: 155vh;
+    margin-top: 36vh;
+    position: fixed;
+    cursor: pointer;
+    font-size: 2.4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -19,7 +31,6 @@ html{
     margin: 10vh;
     padding: 10vh;
 }
-
 body{
     background-color: rgba(245, 222, 179, 0.151);
 }
