@@ -126,6 +126,10 @@ nav:hover{
     z-index: 5;
 }
 
+ul{
+    background-color: #25d6a1;
+}
+
 /*--------------HEADING Over--------------*/
 
 body {
